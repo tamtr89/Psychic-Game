@@ -1,0 +1,55 @@
+body {
+    background: rgb(40, 72, 255);
+}
+
+#instructions,
+#fun-image,
+#guessing-game {
+    border: 1px solid white;
+    padding: 2%;
+    text-align: center;
+}
+
+#instructions {
+    background: rgb(245, 84, 138);
+}
+
+#middle {
+    padding-left: 15px;
+    width: 100%;
+
+}
+
+#fun-image {
+    background: rgba(255, 255, 255, 0.452);
+}
+
+#guessing-game {
+    background: rgb(255, 102, 0);
+    color: beige;
+}
+
+.heading {
+    font-weight: bold;
+    background: none;
+}
+
+footer {
+    background-color: rgba(117, 2, 121, 0.562);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(200, 201, 226);
+    text-align: center;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 0, 0.973);
+}
+
+#reset {
+    margin-left: 73px;
+    padding: 15px;
+    border: 1px solid white;
+}
