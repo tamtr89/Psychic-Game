@@ -2,22 +2,45 @@ body {
     background: rgb(40, 72, 255);
 }
 
+.container {
+    margin: auto;
+}
+
 #instructions,
 #fun-image,
 #guessing-game {
     border: 1px solid white;
-    padding: 2%;
+    padding: 1%;
     text-align: center;
+    font-size: 15px;    
+}
+
+li {
+    display: block;
 }
 
 #instructions {
     background: rgb(245, 84, 138);
 }
+#direction-key {
+    font-family: 'Itim', cursive;
+}
+
+#direction-key,
+#guessing-game {
+    font-weight: bold;
+}
 
 #middle {
     padding-left: 15px;
     width: 100%;
+}
 
+
+#reset {
+    margin-left: 73px;
+    padding: 15px;
+    border: 1px solid white;
 }
 
 #fun-image {
@@ -30,6 +53,7 @@ body {
 }
 
 .heading {
+    font-family:'Sigmar One', cursive;
     font-weight: bold;
     background: none;
 }
@@ -45,11 +69,6 @@ footer {
 }
 
 .jumbotron {
+    margin: 0 auto;
     background: rgba(255, 255, 0, 0.973);
-}
-
-#reset {
-    margin-left: 73px;
-    padding: 15px;
-    border: 1px solid white;
 }

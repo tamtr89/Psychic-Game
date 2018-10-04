@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Itim|Sigmar+One" rel="stylesheet">
 
 </head>
 
@@ -25,7 +26,16 @@
     <div class="container">
         <div class="row">
             <div id="instructions" class="col-md-11">
-                <h4 id="direction-key">Guess what letter I'm thinking of</h4>
+                <h4 id="direction-key">INSTRUCTIONS:</h4>
+                <ul>
+                    <li>Press any letter on your keyboard to guess what letter I'm thinking of</li>
+                    <li>You have 9 tries each round to match my letter</li>
+                    <li>If you correctly match my letter within 9tries - YOU WIN! - Otherwise, YOU LOSE!</li>
+                    <li><strong>After 5 losses, click the RESET GAME button to start again</strong></li>
+                    <br>
+                    <h3 id="direction-key">Have Fun!</h3>
+                </ul>
+
             </div>
             <div class="row" id="middle">
                 <div id="fun-image" class="col-md-5">
@@ -40,8 +50,8 @@
                 </div>
 
                 <div class="col-md-3">
-                    <button type="button" class="btn btn-warning"  id="reset" >RESET GAME</button>
-                    
+                    <button type="button" class="btn btn-warning" id="reset"><strong>RESET GAME</strong></button>
+
                 </div>
 
             </div>
