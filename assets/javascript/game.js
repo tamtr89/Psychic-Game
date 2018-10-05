@@ -64,7 +64,7 @@ resetGame.addEventListener("click", myFuntion);
 function myFuntion() {
     console.log(resetGame);
 
-    if (losses === 5) {
+    if (losses >= 5) {
         wins = 0;
         winNumber.textContent = "Wins: " + wins;
         losses = 0;
